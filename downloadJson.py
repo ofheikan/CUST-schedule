@@ -6,8 +6,8 @@ import urllib.parse
 import requests
 
 
-def download_jsons(weekRange,id,SessionId,server,year_semester):
-    url = f"https://jwgls{server}.cust.edu.cn/api/ClientStudent/QueryService/OccupyQueryApi/QueryScheduleData"  # 请替换为实际的 API 端点
+def download_jsons(weekRange,id,SessionId,year_semester):
+    url = f"https://jwgl.cust.edu.cn/api/ClientStudent/QueryService/OccupyQueryApi/QueryScheduleData"  # 请替换为实际的 API 端点
     cookies = {
         "ASP.NET_SessionId": SessionId,
     }
