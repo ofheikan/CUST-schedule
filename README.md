@@ -1,3 +1,8 @@
+
+# 获取你的课表在你的设备日历上
+
+这是什么？
+---
 这是一个长春理工大学课表的爬虫，它可将课表生成为日历文件（.ics），该文件可以在电脑和手机自带的日历查看。
 如果您想使用该爬虫，请将该项目导入pycharm当中。
 若要生成课表信息，需要修改main.py中的代码
@@ -8,6 +13,8 @@
 > 3. 对于长春理工现有的两个校区课时不同步的安排进行了适配
 > 4. 对比原有的仓库的内容增加了易用性，并在README文件中增加更加详细的说明
 
+怎么使用
+---
 >[!Tip]
 >1. 首先您需要获得个人id，
 >请按F12按钮，找到network，点击之后教学信息一体化服务平台-》全校课表-》按学生-》选择班级，
@@ -36,10 +43,19 @@
 TypeError: 'NoneType' object is not subscriptable`
 >请确认获取的SessionId是否有效
 
-电脑段日历
-![Alt text](screenshot/browser_Ujk2qvm3SX.png)
+最终效果
+---
 
-手机端日历
-![Screenshot_20250306_132745_One UI Home.jpg](screenshot/Screenshot_20250306_132745_One%20UI%20Home.jpg)
+<div align="center">
+<p style="font-size:large">电脑段日历</p>
+<div style="max-width:40%">  
+<img src="screenshot/browser_Ujk2qvm3SX.png">
+</div>
+  
+<p>手机端日历</p>
+<div style="max-width:40%">
+<img src="screenshot/Screenshot_20250306_132745_One%20UI%20Home.jpg">
+</div>
+</div>
 
 
