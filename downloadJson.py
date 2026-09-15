@@ -28,6 +28,7 @@ def download_jsons(weekRange,id,SessionId,year_semester):
         param = {
             "KBLX": "2",  # 课表类型
             "CXLX": "1",  # 查询类型
+            "XQJC": "春明湖校区",  # 校区检查
             "XNXQ": year_semester,  # 学年学期
             "CXID": id,  # 查询ID
             "CXZC": str(i),  # 查询周次
