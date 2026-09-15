@@ -23,7 +23,7 @@ def calculate_date_from_week_day(week_number, day_of_week):
     return None
 
   # 定义起始日期 (2025年2月24日是星期一)
-  start_date = datetime.date(2025, 2, 24)
+  start_date = datetime.date(2026, 8, 24)
 
   # 计算目标日期
   # 第一周的起始日期就是start_date
@@ -62,7 +62,7 @@ def to_ics(name):
 
         end_time -= datetime.timedelta(hours=8)
 
-        now = datetime.datetime.now(datetime.UTC)
+        now = datetime.datetime.now(datetime.timezone.utc)
 
         event = Event()
         event.add('summary', lesson_data['Lesson'])
