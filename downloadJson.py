@@ -1,6 +1,6 @@
 import base64
 import json
-
+import os
 import urllib.parse
 
 import requests
@@ -20,6 +20,9 @@ def download_jsons(weekRange,id,SessionId,year_semester):
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
         "Accept": "application/json, text/plain, */*",
     }
+
+    os.makedirs("json",exist_ok=True) #修复了之前需要手动建立一个名为“json”的文件夹
+
     for i in weekRange:
 
         param = {
