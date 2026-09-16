@@ -54,7 +54,7 @@ TypeError: 'NoneType' object is not subscriptable`
   
 <p>手机端日历</p>
 <div style="max-width:40%">
-<img src="screenshot/Screenshot_20250306_132745_One%20UI%20Home.jpg">
+<img src="https://github.com/ofheikan/CUST-schedule/blob/master/screenshot/Screenshot_20260916-001624.png?raw=true">
 </div>
 </div>
 
